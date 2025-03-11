@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+</html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador Interactivo</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenido al Simulador Interactivo</h1>
+    </header>
+    <main>
+        <section id="input-section">
+            <h2>Obtén tu Cotización</h2>
+            <form id="quote-form">
+                <label for="product">Selecciona Producto:</label>
+                <select id="product" name="product">
+                    <option value="product1">Producto 1</option>
+                    <option value="product2">Producto 2</option>
+                    <option value="product3">Producto 3</option>
+                </select>
+                <label for="quantity">Cantidad:</label>
+                <input type="number" id="quantity" name="quantity" min="1" required>
+                <button type="submit">Obtener Cotización</button>
+            </form>
+        </section>
+        <section id="result-section">
+            <h2>Tu Cotización</h2>
+            <div id="quote-result"></div>
+        </section>
+        <section id="product-list">
+            <h2>Lista de Productos</h2>
+            <!-- Productos se cargarán aquí -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Minimo se intento :D.</p>
+    </footer>
+    <script src="js/utils.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
