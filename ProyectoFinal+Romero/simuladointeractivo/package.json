@@ -1,0 +1,21 @@
+{
+  "name": "simulador-interactivo",
+  "version": "1.0.0",
+  "description": "Un simulador interactivo para comercio electrónico, generación de cotizaciones de productos/servicios, transacciones de banca en casa o conversión de moneda/criptomoneda.",
+  "main": "src/js/app.js",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Paso de construcción no definido'"
+  },
+  "keywords": [
+    "comercio electrónico",
+    "simulador",
+    "interactivo",
+    "javascript"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}

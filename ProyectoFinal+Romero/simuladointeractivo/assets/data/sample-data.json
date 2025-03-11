@@ -1,0 +1,61 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Portátil",
+      "descripción": "Portátil de alto rendimiento para juegos y productividad.",
+      "precio": 1200.0,
+      "moneda": "USD",
+      "imagen": "assets/images/laptop.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Teléfono Inteligente",
+      "descripción": "Último modelo de teléfono inteligente con funciones avanzadas.",
+      "precio": 800.0,
+      "moneda": "USD",
+      "imagen": "assets/images/smartphone.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Auriculares",
+      "descripción": "Auriculares sobre la oreja con cancelación de ruido.",
+      "precio": 300.0,
+      "moneda": "USD",
+      "imagen": "assets/images/headphones.jpg"
+    }
+  ],
+  "servicios": [
+    {
+      "id": 1,
+      "nombre": "Desarrollo Web",
+      "descripción": "Servicios de desarrollo web a medida.",
+      "precio": 1500.0,
+      "moneda": "USD"
+    },
+    {
+      "id": 2,
+      "nombre": "Optimización SEO",
+      "descripción": "Mejora la visibilidad de tu sitio web en los motores de búsqueda.",
+      "precio": 500.0,
+      "moneda": "USD"
+    }
+  ],
+  "monedas": [
+    {
+      "código": "USD",
+      "nombre": "Dólar Estadounidense",
+      "símbolo": "$"
+    },
+    {
+      "código": "EUR",
+      "nombre": "Euro",
+      "símbolo": "€"
+    },
+    {
+      "código": "GBP",
+      "nombre": "Libra Esterlina",
+      "símbolo": "£"
+    }
+  ]
+}
